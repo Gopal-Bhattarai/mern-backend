@@ -75,7 +75,7 @@ dbConnection();
 
 //Initializing server to listen on given port
 app.listen(
-  process.env.PORT,
+  process.env.PORT || 8080,
   console.log(chalk.hex('#FFA500')(`My App is running on : ${process.env.PORT}`))
 );
 
