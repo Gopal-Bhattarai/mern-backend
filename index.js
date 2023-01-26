@@ -1,16 +1,16 @@
 import dotenv from "dotenv";
 import express from "express";
-import dbConnection from "./config/DB.js";
+import dbConnection from "./src/config/DB.js";
 import bodyParser from "body-parser";
 import cors from "cors";
 import cookieSession from "cookie-session";
 import passport from "passport";
 import chalk from "chalk";
-import ('./passport.js')
-import apiRouter from "./apiRouter.js";
+import ('./src/passport.js')
+import apiRouter from "./src/apiRouter.js";
 import swaggerJSDoc from "swagger-jsdoc";
 import swaggerUi from 'swagger-ui-express'
-import swaggerDocument from '../swagger.json' assert { type: "json" }
+import swaggerDocument from './swagger.json' assert { type: "json" }
 
 dotenv.config();
 const app = express();
