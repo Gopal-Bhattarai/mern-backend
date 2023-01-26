@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rojinnn/mern-kartik15-backend.git"
+    "url": "git+https://github.com/Gopal-Bhattarai/mern-backend"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rojinnn/mern-kartik15-backend/issues"
+    "url": "https://https://github.com/Gopal-Bhattarai/mern-backend"
   },
-  "homepage": "https://github.com/rojinnn/mern-kartik15-backend#readme",
+  "homepage": "https://github.com/Gopal-Bhattarai/mern-backend",
   "type": "module",
   "dependencies": {
     "@sendgrid/mail": "^7.7.0",
